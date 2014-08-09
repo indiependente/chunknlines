@@ -1,0 +1,40 @@
+{
+  "name": "splitnlines",
+  "version": "0.1.0",
+  "description": "n-lines splitter stream",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "binary-split": "^0.1.2",
+    "duplexer": "^0.1.1",
+    "stream-combiner": "^0.2.1",
+    "through": "^2.3.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/indiependente/splitnlines.git"
+  },
+  "keywords": [
+    "stream",
+    "split",
+    "splitter",
+    "line",
+    "nlines",
+    "linesplitter",
+    "transform",
+    "through",
+    "combiner"
+  ],
+  "author": "indiependente",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/indiependente/splitnlines/issues"
+  },
+  "homepage": "https://github.com/indiependente/splitnlines"
+}
