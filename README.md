@@ -1,7 +1,7 @@
-splitnlines
+chunknlines
 ===========
 
-Node.js n-lines splitter stream module
+Node.js n-lines chunker stream module
 ##What it does
 This stream helps you create chunks from an input. It's very useful when dealing with big files.
 
@@ -9,9 +9,9 @@ This module takes text in input and sends in output chunk made by n-lines. Where
 
 
 ##Usage
-var splitnlines 	= 	require('splitnlines');
+var chunknlines 	= 	require('chunknlines');
 
-stream.pipe(splitnlines([NLINES]).pipe(anotherstream);
+stream.pipe(chunknlines([NLINES]).pipe(anotherstream);
 
 #####Argument:
 - NLINES: the number of lines in a single chunk (default = 1)
@@ -20,9 +20,9 @@ stream.pipe(splitnlines([NLINES]).pipe(anotherstream);
 The example code below, echoes what we write on standard input every 3 new lines.
 
 ```javascript
-var splitnlines 	= 	require('splitnlines');
+var chunknlines 	= 	require('chunknlines');
 
-process.stdin.pipe(splitnlines(3)).pipe(process.stdout);
+process.stdin.pipe(chunknlines(3)).pipe(process.stdout);
 ```
 
 ##License

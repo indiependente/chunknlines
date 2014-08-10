@@ -1,5 +1,5 @@
 {
-  "name": "splitnlines",
+  "name": "chunknlines",
   "version": "0.1.1",
   "description": "Stream that splits the input in chunk made by n lines",
   "main": "index.js",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/indiependente/splitnlines.git"
+    "url": "https://github.com/indiependente/chunknlines.git"
   },
   "keywords": [
     "stream",
@@ -36,7 +36,7 @@
   "author": "indiependente",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/indiependente/splitnlines/issues"
+    "url": "https://github.com/indiependente/chunknlines/issues"
   },
-  "homepage": "https://github.com/indiependente/splitnlines"
+  "homepage": "https://github.com/indiependente/chunknlines"
 }
