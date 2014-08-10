@@ -1,14 +1,13 @@
 {
   "name": "splitnlines",
-  "version": "0.1.0",
-  "description": "n-lines splitter stream",
+  "version": "0.1.1",
+  "description": "Stream that splits the input in chunk made by n lines",
   "main": "index.js",
   "directories": {
     "test": "tests"
   },
   "dependencies": {
     "binary-split": "^0.1.2",
-    "duplexer": "^0.1.1",
     "stream-combiner": "^0.2.1",
     "through": "^2.3.4"
   },
@@ -24,6 +23,9 @@
     "stream",
     "split",
     "splitter",
+    "chunk",
+    "chunker",
+    "big",
     "line",
     "nlines",
     "linesplitter",
